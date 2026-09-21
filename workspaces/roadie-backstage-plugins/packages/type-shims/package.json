@@ -1,0 +1,14 @@
+{
+  "name": "@internal/type-shims",
+  "version": "0.0.0-use.local",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-router": "^6.26.1",
+    "react-router-dom": "^6.26.1"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5"
+  }
+}

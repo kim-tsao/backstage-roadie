@@ -1,0 +1,61 @@
+{
+  "name": "@roadiehq/scaffolder-backend-module-http-request-dynamic",
+  "version": "5.6.0",
+  "main": "./dist/index.cjs.js",
+  "types": "./dist/index.d.ts",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "backstage": {
+    "role": "backend-plugin-module",
+    "pluginId": "scaffolder",
+    "pluginPackage": "@backstage/plugin-scaffolder-backend",
+    "supported-versions": "1.49.4"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.cjs.js"
+    },
+    "./package.json": "./package.json",
+    "./new-backend": {
+      "require": "./dist/new-backend.cjs.js",
+      "types": "./dist/new-backend.d.ts",
+      "default": "./dist/new-backend.cjs.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:RoadieHQ/roadie-backstage-plugins",
+    "directory": "plugins/scaffolder-actions/scaffolder-backend-module-http-request"
+  },
+  "bugs": {
+    "url": "https://github.com/RoadieHQ/roadie-backstage-plugins/issues",
+    "email": "support@roadie.io"
+  },
+  "dependencies": {
+    "cross-fetch": "^4.0.0"
+  },
+  "files": [
+    "dist",
+    "new-backend"
+  ],
+  "bundleDependencies": true,
+  "peerDependencies": {
+    "@backstage/backend-plugin-api": "^1.4.4",
+    "@backstage/core-plugin-api": "^1.11.1",
+    "@backstage/plugin-scaffolder-node": "^0.12.0"
+  },
+  "overrides": {
+    "@aws-sdk/util-utf8-browser": {
+      "@smithy/util-utf8": "^2.0.0"
+    }
+  },
+  "resolutions": {
+    "@aws-sdk/util-utf8-browser": "npm:@smithy/util-utf8@~2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  }
+}

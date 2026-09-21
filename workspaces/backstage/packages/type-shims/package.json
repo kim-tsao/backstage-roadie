@@ -1,0 +1,23 @@
+{
+  "name": "@internal/type-shims",
+  "version": "0.0.0-use.local",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-router": "^6.30.2",
+    "react-router-dom": "^6.30.2"
+  },
+  "devDependencies": {
+    "@types/command-exists": "^1.2.0",
+    "@types/compression": "^1.7.5",
+    "@types/concat-stream": "^2.0.0",
+    "@types/git-url-parse": "^9.0.0",
+    "@types/minimist": "^1.2.5",
+    "@types/prettier": "^2.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-helmet": "^6.1.0",
+    "@types/semver": "^7",
+    "@types/zen-observable": "^0.8.0"
+  }
+}

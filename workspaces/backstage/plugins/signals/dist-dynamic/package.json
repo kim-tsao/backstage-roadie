@@ -1,0 +1,75 @@
+{
+  "name": "@backstage/plugin-signals-dynamic",
+  "version": "0.0.32",
+  "backstage": {
+    "role": "frontend-plugin",
+    "pluginId": "signals",
+    "pluginPackages": [
+      "@backstage/plugin-signals",
+      "@backstage/plugin-signals-backend",
+      "@backstage/plugin-signals-node",
+      "@backstage/plugin-signals-react"
+    ],
+    "features": {
+      "./alpha": "@backstage/FrontendPlugin"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/backstage/backstage",
+    "directory": "plugins/signals"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": {},
+    "./alpha": {},
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist",
+    "dist-scalprum"
+  ],
+  "dependencies": {
+    "@backstage/core-components": "^0.18.11",
+    "@backstage/core-plugin-api": "^1.12.7",
+    "@backstage/frontend-plugin-api": "^0.17.2",
+    "@backstage/plugin-signals-react": "^0.0.23",
+    "@backstage/theme": "^0.7.3",
+    "@backstage/types": "^1.2.2",
+    "@material-ui/core": "^4.12.4",
+    "@remixicon/react": ">=4.6.0 <4.9.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^6.30.2"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "overrides": {
+    "@aws-sdk/util-utf8-browser": {
+      "@smithy/util-utf8": "^2.0.0"
+    }
+  },
+  "resolutions": {
+    "@aws-sdk/util-utf8-browser": "npm:@smithy/util-utf8@~2",
+    "@remixicon/react": ">=4.6.0 <4.9.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "GendocuPublicApis": "npm:gendocu-public-apis@^1.0.0",
+    "csstype@npm:^3.0.2": "3.0.9",
+    "csstype@npm:^3.1.2": "3.0.9",
+    "csstype@npm:^3.1.3": "3.0.9",
+    "es5-ext": "npm:@unes/es5-ext@0.10.64-1"
+  }
+}
