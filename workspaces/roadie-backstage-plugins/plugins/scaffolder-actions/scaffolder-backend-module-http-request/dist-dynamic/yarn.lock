@@ -10,8 +10,10 @@ __metadata:
   resolution: "@roadiehq/scaffolder-backend-module-http-request-dynamic@workspace:."
   dependencies:
     cross-fetch: "npm:^4.0.0"
+    zod: "npm:^4.4.3"
   peerDependencies:
     "@backstage/backend-plugin-api": ^1.4.4
+    "@backstage/config": ^1.3.5
     "@backstage/core-plugin-api": ^1.11.1
     "@backstage/plugin-scaffolder-node": ^0.12.0
   languageName: unknown
@@ -61,5 +63,12 @@ __metadata:
     tr46: "npm:~0.0.3"
     webidl-conversions: "npm:^3.0.0"
   checksum: 10/f95adbc1e80820828b45cc671d97da7cd5e4ef9deb426c31bcd5ab00dc7103042291613b3ef3caec0a2335ed09e0d5ed026c940755dbb6d404e2b27f940fdf07
+  languageName: node
+  linkType: hard
+
+"zod@npm:^4.4.3":
+  version: 4.4.3
+  resolution: "zod@npm:4.4.3"
+  checksum: 10/804b9a42aa8f35f2b3c5a8dff906291cb749115f83ee2afe3576d70b5b5c53c965365c7f4967690647a9c54af9838ff232a85ff9577a0a36c44b68bc6cdefe36
   languageName: node
   linkType: hard

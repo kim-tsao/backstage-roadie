@@ -1,6 +1,6 @@
 {
   "name": "@backstage/plugin-notifications-node",
-  "version": "0.2.27",
+  "version": "0.2.29",
   "description": "Node.js library for the notifications plugin",
   "backstage": {
     "role": "node-library",
@@ -37,13 +37,13 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage/backend-plugin-api": "^1.9.2",
+    "@backstage/backend-plugin-api": "^1.10.0",
     "@backstage/plugin-notifications-common": "workspace:^"
   },
   "devDependencies": {
-    "@backstage/backend-test-utils": "^1.11.4",
-    "@backstage/cli": "^0.36.3",
-    "@backstage/test-utils": "^1.7.19",
-    "msw": "^1.0.0"
+    "@backstage/backend-test-utils": "^1.11.6",
+    "@backstage/cli": "^0.36.5",
+    "@backstage/test-utils": "^1.7.21",
+    "msw": "^2.0.0"
   }
 }

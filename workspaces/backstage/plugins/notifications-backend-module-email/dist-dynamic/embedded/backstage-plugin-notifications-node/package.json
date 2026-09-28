@@ -1,6 +1,6 @@
 {
   "name": "@backstage/plugin-notifications-node",
-  "version": "0.2.27+embedded",
+  "version": "0.2.29+embedded",
   "description": "Node.js library for the notifications plugin",
   "backstage": {
     "role": "node-library",
@@ -42,7 +42,7 @@
   "devDependencies": {},
   "private": true,
   "peerDependencies": {
-    "@backstage/backend-plugin-api": "^1.9.2"
+    "@backstage/backend-plugin-api": "^1.10.0"
   },
   "overrides": {
     "@aws-sdk/util-utf8-browser": {

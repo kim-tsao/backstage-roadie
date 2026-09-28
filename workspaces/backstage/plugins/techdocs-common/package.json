@@ -47,6 +47,6 @@
     "test": "backstage-cli package test"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.36.3"
+    "@backstage/cli": "^0.36.5"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@backstage/plugin-events-node",
-  "version": "0.4.23+embedded",
+  "version": "0.4.25+embedded",
   "description": "The plugin-events-node module for @backstage/plugin-events-backend",
   "backstage": {
     "role": "node-library",
@@ -62,7 +62,7 @@
   "configSchema": "config.d.ts",
   "private": true,
   "peerDependencies": {
-    "@backstage/backend-plugin-api": "^1.9.2",
+    "@backstage/backend-plugin-api": "^1.10.0",
     "@backstage/errors": "^1.3.1",
     "@backstage/types": "^1.2.2"
   },

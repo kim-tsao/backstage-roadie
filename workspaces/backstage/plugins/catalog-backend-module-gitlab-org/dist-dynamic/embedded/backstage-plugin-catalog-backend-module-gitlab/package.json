@@ -1,6 +1,6 @@
 {
   "name": "@backstage/plugin-catalog-backend-module-gitlab",
-  "version": "0.8.4+embedded",
+  "version": "0.8.7+embedded",
   "description": "A Backstage catalog backend module that helps integrate towards GitLab",
   "backstage": {
     "role": "backend-plugin-module",
@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@backstage/plugin-catalog-common": "^1.1.10",
-    "@backstage/plugin-catalog-node": "^2.2.2",
+    "@backstage/plugin-catalog-node": "^2.2.4",
     "@gitbeaker/rest": "^40.0.3",
     "lodash": "^4.17.21"
   },
@@ -59,13 +59,13 @@
   "configSchema": "config.d.ts",
   "private": true,
   "peerDependencies": {
-    "@backstage/backend-defaults": "^0.17.3",
-    "@backstage/backend-plugin-api": "^1.9.2",
-    "@backstage/catalog-model": "^1.9.0",
+    "@backstage/backend-defaults": "^0.17.8",
+    "@backstage/backend-plugin-api": "^1.10.0",
+    "@backstage/catalog-model": "^1.10.0",
     "@backstage/config": "^1.3.8",
     "@backstage/errors": "^1.3.1",
-    "@backstage/integration": "^2.0.3",
-    "@backstage/plugin-events-node": "^0.4.23"
+    "@backstage/integration": "^2.1.1",
+    "@backstage/plugin-events-node": "^0.4.25"
   },
   "overrides": {
     "@aws-sdk/util-utf8-browser": {
@@ -74,6 +74,6 @@
   },
   "resolutions": {
     "@aws-sdk/util-utf8-browser": "npm:@smithy/util-utf8@~2",
-    "@backstage/plugin-events-node": "0.4.23"
+    "@backstage/plugin-events-node": "0.4.25"
   }
 }

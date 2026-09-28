@@ -1,6 +1,6 @@
 {
   "name": "@backstage/plugin-signals-node",
-  "version": "0.2.2+embedded",
+  "version": "0.2.4+embedded",
   "description": "Node.js library for the signals plugin",
   "backstage": {
     "role": "node-library",
@@ -40,8 +40,8 @@
   "devDependencies": {},
   "private": true,
   "peerDependencies": {
-    "@backstage/backend-plugin-api": "^1.9.2",
-    "@backstage/plugin-events-node": "^0.4.23",
+    "@backstage/backend-plugin-api": "^1.10.0",
+    "@backstage/plugin-events-node": "^0.4.25",
     "@backstage/types": "^1.2.2"
   },
   "overrides": {
@@ -51,6 +51,6 @@
   },
   "resolutions": {
     "@aws-sdk/util-utf8-browser": "npm:@smithy/util-utf8@~2",
-    "@backstage/plugin-events-node": "0.4.23"
+    "@backstage/plugin-events-node": "0.4.25"
   }
 }

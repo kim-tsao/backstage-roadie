@@ -497,17 +497,17 @@ __metadata:
     "@azure/communication-email": "npm:^1.0.0"
     "@azure/identity": "npm:^4.0.0"
     "@backstage/plugin-notifications-common": "npm:^0.2.3"
-    "@backstage/plugin-notifications-node": "npm:^0.2.27"
+    "@backstage/plugin-notifications-node": "npm:^0.2.29"
     lodash: "npm:^4.17.21"
-    nodemailer: "npm:^8.0.4"
+    nodemailer: "npm:^9.0.1"
     p-throttle: "npm:^4.1.1"
   peerDependencies:
-    "@backstage/backend-plugin-api": ^1.9.2
-    "@backstage/catalog-client": ^1.16.0
-    "@backstage/catalog-model": ^1.9.0
+    "@backstage/backend-plugin-api": ^1.10.0
+    "@backstage/catalog-client": ^1.16.1
+    "@backstage/catalog-model": ^1.10.0
     "@backstage/config": ^1.3.8
-    "@backstage/integration-aws-node": ^0.2.0
-    "@backstage/plugin-catalog-node": ^2.2.2
+    "@backstage/integration-aws-node": ^0.2.1
+    "@backstage/plugin-catalog-node": ^2.2.4
     "@backstage/types": ^1.2.2
   languageName: unknown
   linkType: soft
@@ -523,13 +523,13 @@ __metadata:
   linkType: hard
 
 "@backstage/plugin-notifications-node@file:./embedded/backstage-plugin-notifications-node::locator=%40backstage%2Fplugin-notifications-backend-module-email-dynamic%40workspace%3A.":
-  version: 0.2.27+embedded
-  resolution: "@backstage/plugin-notifications-node@file:./embedded/backstage-plugin-notifications-node#./embedded/backstage-plugin-notifications-node::hash=9081f8&locator=%40backstage%2Fplugin-notifications-backend-module-email-dynamic%40workspace%3A."
+  version: 0.2.29+embedded
+  resolution: "@backstage/plugin-notifications-node@file:./embedded/backstage-plugin-notifications-node#./embedded/backstage-plugin-notifications-node::hash=dcac3c&locator=%40backstage%2Fplugin-notifications-backend-module-email-dynamic%40workspace%3A."
   dependencies:
     "@backstage/plugin-notifications-common": "npm:^0.2.3"
   peerDependencies:
-    "@backstage/backend-plugin-api": ^1.9.2
-  checksum: 10/3f8ebd11fbc9b0484f78c3ff1c2faac7559ddf0858c42ef4c5f2e999cfa066235f4975406111810d27fe71fdc92e687e7200332554287825231f0afb9b17f9f1
+    "@backstage/backend-plugin-api": ^1.10.0
+  checksum: 10/aaab927b2914f0ec5778bc1091bb797106989e69911ac0fedb6a60c8dc56e2297e8794355ba1db7502340888158edd3d1f6e0be43d41a4b1987375e313a7be31
   languageName: node
   linkType: hard
 
@@ -853,10 +853,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^8.0.4":
-  version: 8.0.9
-  resolution: "nodemailer@npm:8.0.9"
-  checksum: 10/5e05f2ae9637fab18e99813cd2db1e5ab408c34f6164e5d3c9ad0bce9e70dfa6ab689971cd025f30322c91bfc9ab560431f3bb7928e68d962e6edd2256c2366e
+"nodemailer@npm:^9.0.1":
+  version: 9.0.4
+  resolution: "nodemailer@npm:9.0.4"
+  checksum: 10/af8ae3d0846c8904659369b48fc00d09ce8b71fbf59f0541c71c5671f2240803d102d4b533483dde0ec92dceb9b834ff0220d5c149761d13faae62d22b4be2f9
   languageName: node
   linkType: hard
 
@@ -901,11 +901,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:^7.3.8":
-  version: 7.7.4
-  resolution: "semver@npm:7.7.4"
+  version: 7.8.5
+  resolution: "semver@npm:7.8.5"
   bin:
     semver: bin/semver.js
-  checksum: 10/26bdc6d58b29528f4142d29afb8526bc335f4fc04c4a10f2b98b217f277a031c66736bf82d3d3bb354a2f6a3ae50f18fd62b053c4ac3f294a3d10a61f5075b75
+  checksum: 10/9b01d2ff11e6e4a4539b7ca3c5f280c8704cb397a28504469f2ed4f00ad2194748d756647362a9712fff30984d15772ab7f083108c2fb508e2096ae9e708f22c
   languageName: node
   linkType: hard
 

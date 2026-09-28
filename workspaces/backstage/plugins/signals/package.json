@@ -1,6 +1,6 @@
 {
   "name": "@backstage/plugin-signals",
-  "version": "0.0.32",
+  "version": "0.0.34",
   "backstage": {
     "role": "frontend-plugin",
     "pluginId": "signals",
@@ -51,19 +51,19 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage/core-components": "^0.18.11",
-    "@backstage/core-plugin-api": "^1.12.7",
-    "@backstage/frontend-plugin-api": "^0.17.2",
-    "@backstage/plugin-signals-react": "^0.0.23",
+    "@backstage/core-components": "^0.18.13",
+    "@backstage/core-plugin-api": "^1.12.9",
+    "@backstage/frontend-plugin-api": "^0.18.0",
+    "@backstage/plugin-signals-react": "^0.0.25",
     "@backstage/theme": "^0.7.3",
     "@backstage/types": "^1.2.2",
     "@material-ui/core": "^4.12.4",
     "@remixicon/react": ">=4.6.0 <4.9.0"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.36.3",
-    "@backstage/dev-utils": "^1.1.24",
-    "@backstage/test-utils": "^1.7.19",
+    "@backstage/cli": "^0.36.5",
+    "@backstage/dev-utils": "^1.1.26",
+    "@backstage/test-utils": "^1.7.21",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^16.0.0",
     "@types/react": "^18.0.0",
