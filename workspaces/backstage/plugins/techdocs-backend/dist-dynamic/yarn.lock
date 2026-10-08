@@ -708,7 +708,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-techdocs-backend-dynamic@workspace:."
   dependencies:
-    "@backstage/plugin-techdocs-node": "npm:^1.15.4"
+    "@backstage/plugin-techdocs-node": "npm:^1.15.6"
     express: "npm:^4.22.0"
     express-promise-router: "npm:^4.1.0"
     fs-extra: "npm:^11.2.0"
@@ -737,8 +737,8 @@ __metadata:
   linkType: hard
 
 "@backstage/plugin-techdocs-node@file:./embedded/backstage-plugin-techdocs-node::locator=%40backstage%2Fplugin-techdocs-backend-dynamic%40workspace%3A.":
-  version: 1.15.4+embedded
-  resolution: "@backstage/plugin-techdocs-node@file:./embedded/backstage-plugin-techdocs-node#./embedded/backstage-plugin-techdocs-node::hash=f2a1af&locator=%40backstage%2Fplugin-techdocs-backend-dynamic%40workspace%3A."
+  version: 1.15.6+embedded
+  resolution: "@backstage/plugin-techdocs-node@file:./embedded/backstage-plugin-techdocs-node#./embedded/backstage-plugin-techdocs-node::hash=edfa10&locator=%40backstage%2Fplugin-techdocs-backend-dynamic%40workspace%3A."
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.350.0"
     "@aws-sdk/credential-providers": "npm:^3.350.0"
@@ -770,7 +770,7 @@ __metadata:
     "@backstage/integration": ^2.1.1
     "@backstage/integration-aws-node": ^0.2.1
     "@backstage/plugin-search-common": ^1.2.24
-  checksum: 10/45f72ad2d25e4212414c2d438880e14f25b5609661eabe146599e1b9a6408efe244098a363470450b14992365321264c88dfcf1a6418d4350f3bc0a9252213fa
+  checksum: 10/511cacaa99c0b82172607020222c822f7ebc91239bf57c2508e0b909f5ea8f53e7faa4bf334dadf61a0ab3d53b408030b9d26ddf09b6a3622db6f023084de2e4
   languageName: node
   linkType: hard
 

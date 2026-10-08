@@ -58,6 +58,7 @@
   "resolutions": {
     "@aws-sdk/util-utf8-browser": "npm:@smithy/util-utf8@~2",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "@yarnpkg/core": "4.9.1"
   }
 }

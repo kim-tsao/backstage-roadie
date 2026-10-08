@@ -9,6 +9,13 @@
     "react-router-dom": "^6.26.1"
   },
   "devDependencies": {
-    "@types/compression": "^1.7.5"
+    "@aws-sdk/types": "^3.696.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@types/compression": "^1.7.5",
+    "@types/express": "*",
+    "@types/nunjucks": "^3.2.6",
+    "@types/react": "*",
+    "@types/recharts": "^1.8.14",
+    "react": "^16.13.1 || ^17.0.0 || ^18.0.0"
   }
 }

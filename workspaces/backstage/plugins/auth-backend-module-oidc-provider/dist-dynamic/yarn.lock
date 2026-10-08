@@ -9,7 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-auth-backend-module-oidc-provider-dynamic@workspace:."
   dependencies:
-    "@backstage/plugin-auth-node": "npm:^0.7.4"
+    "@backstage/plugin-auth-node": "npm:^0.7.5"
     express: "npm:^4.22.0"
     openid-client: "npm:^5.5.0"
     passport: "npm:^0.7.0"
@@ -26,8 +26,8 @@ __metadata:
   linkType: soft
 
 "@backstage/plugin-auth-node@file:./embedded/backstage-plugin-auth-node::locator=%40backstage%2Fplugin-auth-backend-module-oidc-provider-dynamic%40workspace%3A.":
-  version: 0.7.4+embedded
-  resolution: "@backstage/plugin-auth-node@file:./embedded/backstage-plugin-auth-node#./embedded/backstage-plugin-auth-node::hash=a6ba28&locator=%40backstage%2Fplugin-auth-backend-module-oidc-provider-dynamic%40workspace%3A."
+  version: 0.7.5+embedded
+  resolution: "@backstage/plugin-auth-node@file:./embedded/backstage-plugin-auth-node#./embedded/backstage-plugin-auth-node::hash=9bc1a4&locator=%40backstage%2Fplugin-auth-backend-module-oidc-provider-dynamic%40workspace%3A."
   dependencies:
     "@types/express": "npm:^4.17.6"
     "@types/passport": "npm:^1.0.3"
@@ -45,7 +45,7 @@ __metadata:
     "@backstage/config": ^1.3.8
     "@backstage/errors": ^1.3.1
     "@backstage/types": ^1.2.2
-  checksum: 10/13d760d81e9ad675c666f1384db4bbbb959d92071fd31a8feab5e312e00340a8965def89d75d92678696581ceb61f3756ed31721589f059079883ff601329b35
+  checksum: 10/3f8d2a50d5caa71b1205c9aa75b34d7982cb0c550f3c13d8c365a21052ccd1282fa2ec772ce44df882cf1053d79fa50880f763c588d52ba86a0dad7917ebbca9
   languageName: node
   linkType: hard
 
