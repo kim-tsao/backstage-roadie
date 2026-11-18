@@ -125,7 +125,7 @@
     "@jest/environment-jsdom-abstract": "~30.2.0",
     "@octokit/rest": "^19.0.3",
     "@playwright/test": "^1.32.3",
-    "@red-hat-developer-hub/cli": "file:../../.yarn/cache/red-hat-developer-hub-cli-2.1.0.tgz",
+    "@red-hat-developer-hub/cli": "file:../../.yarn/cache/red-hat-developer-hub-cli-2.1.2.tgz",
     "@spotify/eslint-plugin": "^15.0.0",
     "@storybook/addon-a11y": "^10.4.0",
     "@storybook/addon-docs": "^10.4.0",
